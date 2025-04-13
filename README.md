@@ -1,2 +1,2 @@
-# votingApp
+
 # online-votingApp
