@@ -11,10 +11,14 @@ import AdminLayout from "./components/AdminLayout"; // Adjust the import path as
 import ViewVotes from "./pages/ViewVotes";
 import Candidates from "./pages/Candidates";
 import SignUp from "./pages/SignUp";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
     <Router>
+     
+     <Navbar/>   
       <Routes>
         {/* Public Routes */}
         <Route path="/login" element={<LoginScreen />} />

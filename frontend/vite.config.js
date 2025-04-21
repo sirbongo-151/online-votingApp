@@ -14,5 +14,10 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+
+  daisyui: {
+    themes: ["light", "dark"], 
+  },
+
   
 })
