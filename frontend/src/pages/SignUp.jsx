@@ -42,8 +42,9 @@ const SignUp = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-4 gap-4 bg-base-100">
       <div className="max-w-md">
-        <h1 className="text-4xl text-center font-bold mb-6">Sign Up</h1>
-        <form onSubmit={handleAddUser} className="flex flex-col gap-3 justify-center items-center mx-auto mt-12-col gap-4">
+        <h1 className="text-4xl text-center font-bold mb-3">Sign Up</h1>
+        <p className="mb-6 text-gray-500">Please use varify email else you won't be able to vote</p>
+        <form onSubmit={handleAddUser} className="flex flex-col justify-center items-center mx-auto mt-12-col gap-4 w-sm">
           <input
             type="text"
             placeholder="Username"
